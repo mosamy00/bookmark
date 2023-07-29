@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous', cursive;
+    background-color:#F7ECDE ;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    
+}
+.maintitle::after{
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: all 0.5s;
+}
+.maintitle:hover::after{
+    height: 50%;
+}
+.ddd{
+    border-bottom: 2px dotted #000;
+}
+.box-info {
+    background-color: #0007;
+}
+.box-content{
+    width: 500px;
+    z-index: 10;
+}
+.rules li i {
+    color: red;
+}
